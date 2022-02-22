@@ -1,0 +1,1848 @@
+
+{
+	"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"schema": "https://schema.org/",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"area": "loc:barrio",
+		"district": "loc:distrito",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street-address": "vcard:street-address",
+		"location": "vcard:geo",
+		"latitude": "geo:lat",
+		"longitude": "geo:long",
+		"organization": "vcard:org",
+		"organization-desc": "dcterms:description",
+		"accesibility": "org:accesibilidad",
+		"services": "org:servicios",
+		"schedule": "org:horario",
+		"organization-name": "vcard:organization-name",
+		"description": "c:summary",
+		"link": "c:url",
+		"uid": "c:uid",
+		"dtstart": "c:dtstart",
+		"dtend": "c:dtend",
+		"time": "c:time",
+		"excluded-days": "c:exdate",
+		"event-location": "c:location",
+		"free": "schema:free",
+		"price": "c:resource",
+		"recurrence": "c:rrule",
+		"days": "c:byday",
+		"frequency": "c:freq",
+		"interval": "c:interval",
+		"audience": "dc:audience"
+	},
+	"graph": [
+	
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2392-auditorio-al-aire-libre-berlin.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2392",
+		"title": "Auditorio al aire libre Berlín",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=34137b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/CiudadJardin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE SAN ERNESTO 10"
+		},
+		"location": {
+			"latitude": 40.449208447370104,
+			"longitude": -3.6755539136331894
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Chamartín.  Actividades: espectáculos variados durante los meses de verano.  Metro: Concha Espina (línea 9).  Bus: 16, 29, 52.  Bicimad: Estación 197 (avenida de Concha Espina, 34).  Aparcamiento: Museo de la Ciudad (51) calle Príncipe de Vergara 152 y calle Pechuán.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre Berlín"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122296-auditorio-al-aire-libre-carlos-jimenez-parga.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "122296",
+		"title": "Auditorio al aire libre. Carlos Jiménez de Parga",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7d03cbf06c81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/PalomerasSureste"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28038",
+			"street-address": "AVENIDA RAFAEL ALBERTI 13 esquina calle Andaluces"
+		},
+		"location": {
+			"latitude": 40.389925582492495,
+			"longitude": -3.6382516529937448
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Puente de Vallecas.  Actividades: espectáculos variados durante los meses de verano. Espacio abierto, acceso directo sin vallado.  Metro: Miguel Hernández (línea 1).  Bus: 144, 54.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Carlos Jiménez de Parga"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2395-auditorio-al-aire-libre-centro-cultural-pozo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2395",
+		"title": "Auditorio al aire libre. Centro Cultural el Pozo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8cd27b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Entrevias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE ANDALUCES DEL POZO 1 con calle Cabo Machichaco"
+		},
+		"location": {
+			"latitude": 40.372060226614956,
+			"longitude": -3.6607580022990196
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Puente de Vallecas.  Actividades: espectáculos variados durante los meses de verano. Espacio con vallado perimetral y puerta de acceso.  Bus: 102, 24.  Cercanías Renfe: El Pozo (líneas C2 y C7).",
+			"accesibility": "2",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Centro Cultural el Pozo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2396-auditorio-al-aire-libre-entrevias.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2396",
+		"title": "Auditorio al aire libre. Entrevías",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1fe27b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/Entrevias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "RONDA SUR  Altura calle Montánchez"
+		},
+		"location": {
+			"latitude": 40.37302468875877,
+			"longitude": -3.671950235640722
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Puente de Vallecas.  Actividades: espectáculos variados durante los meses de verano. Espacio con vallado perimetral y puerta de acceso.  Bus: 111, 102.",
+			"accesibility": "2",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Entrevías"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122325-auditorio-al-aire-libre-parque-aluche.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "122325",
+		"title": "Auditorio al aire libre. Parque Aluche",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0023cbf06c81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE ILLESCAS 149"
+		},
+		"location": {
+			"latitude": 40.392680212409495,
+			"longitude": -3.7593572957930554
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito Latina.  Actividades : espectáculos variados durante los meses de verano.  Metro de Madrid. Línea 5. Estación: Aluche.   Autobuses de la  EMT: líneas 25 y 121.   Cercanías RENFE:. Línea C 5. Estación: Aluche.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque Aluche"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290753-auditorio-al-aire-libre-parque-amos-acero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10290753",
+		"title": "Auditorio al aire libre. Parque Amós Acero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0688a0701d0da510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/PuenteDeVallecas/Barrio/SanDiego"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28053",
+			"street-address": "CALLE SIERRA DE ALQUIFE 20"
+		},
+		"location": {
+			"latitude": 40.38840792931046,
+			"longitude": -3.6661371810507912
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Puente de Vallecas.  Actividades: Espectáculos variados durante los meses de verano. Espacio abierto, acceso directo sin vallado.  Bus: 24, 103, 111, 57, 144.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque Amós Acero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2393-auditorio-al-aire-libre-parque-cerro-almodovar.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2393",
+		"title": "Auditorio al aire libre. Parque Cerro Almodóvar",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=eb437b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/Aluche"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "CALLE MARCELINO CASTILLO 29"
+		},
+		"location": {
+			"latitude": 40.39420802732146,
+			"longitude": -3.744692836307442
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Latina.  Actividades : espectáculos variados durante los meses de verano.  Metro de Madrid. Línea 6. Estación: Carpetana.  Autobuses de la EMT: Líneas: 17, 25 y 500.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque Cerro Almodóvar"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2399-auditorio-al-aire-libre-parque-canillejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2399",
+		"title": "Auditorio al aire libre. Parque de Canillejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=59337b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Canillejas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28022",
+			"street-address": "CALLE NECTAR 32"
+		},
+		"location": {
+			"latitude": 40.44260378345522,
+			"longitude": -3.6111693057729117
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de San Blas - Canillejas.  Actividades: espectáculos variados durante los meses de verano.  Metro: Torre Arias (línea 5).  Bus: 28, 48, N5.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque de Canillejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10724346-auditorio-al-aire-libre-parque-cuna-verde.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10724346",
+		"title": "Auditorio al aire libre. Parque de la Cuña Verde",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=35f0833f1eec3610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Marroquina"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE JOSE BERGAMIN 62"
+		},
+		"location": {
+			"latitude": 40.41122222440268,
+			"longitude": -3.6325060663892805
+		},
+		"organization": {
+			"organization-desc": "Actividades: cine de verano y espectáculos musicales.  Bus: 140, E4.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque de la Cuña Verde"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2387-auditorio-al-aire-libre-parque-vaguada.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2387",
+		"title": "Auditorio al aire libre. Parque de la Vaguada",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7e537b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Fuencarral-ElPardo/Barrio/ElPilar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28029",
+			"street-address": "PASEO VAGUADA 13 Avenida de Betanzos con Paseo de la Vaguada"
+		},
+		"location": {
+			"latitude": 40.48016602497203,
+			"longitude": -3.7112978051427574
+		},
+		"organization": {
+			"organization-desc": " Mantenimiento:Área de Gobierno de Medio Ambiente y Movilidad Metro: Peña Grande (línea 7), Barrio del Pilar (línea 9) Bus: 49 , 67 , 83 , 124 , 128 , 132 , 133 , 137",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "Templete de Música",
+			"organization-name": "Auditorio al aire libre. Parque de la Vaguada"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2394-auditorio-al-aire-libre-parque-cruces.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2394",
+		"title": "Auditorio al aire libre. Parque de las Cruces",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=93837b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/LasAguilas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28044",
+			"street-address": "AVENIDA POBLADOS 68"
+		},
+		"location": {
+			"latitude": 40.383472075956185,
+			"longitude": -3.759489504920487
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Latina. Está situado junto al estanque del Parque. Ubicación exacta en Google Maps .  Actividades : espectáculos variados durante los meses de verano.  Metro de Madrid. Línea 5. Estación: Aluche. Autobuses de la EMT. Líneas: 47, 118, 121, 131, 155. Cercanías RENFE. Línea C 5. Estación: Aluche.",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque de las Cruces"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52514-auditorio-al-aire-libre-parque-olof-palme.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "52514",
+		"title": "Auditorio al aire libre. Parque de Olof Palme",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1185946be351c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Zofio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28026",
+			"street-address": "CALLE CERECINOS 1"
+		},
+		"location": {
+			"latitude": 40.384708341415276,
+			"longitude": -3.712460441100476
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de Medioambiente (Parques y Jardines).  Actividades: espectáculos variados durante los meses de verano.  Metro: Plaza Elíptica (líneas 6, 11).  Bus: 247, 47, 60, 81.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque de Olof Palme"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622017-auditorio-al-aire-libre-parque-pradolongo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "6622017",
+		"title": "Auditorio al aire libre. Parque de Pradolongo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0bae296aa2c9a310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Pradolongo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "AVENIDA POBLADOS 169"
+		},
+		"location": {
+			"latitude": 40.3719863231287,
+			"longitude": -3.7067784594450583
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de Medioambiente. (Parques y Jardines).  Actividades: espectáculos variados durante los meses de verano.  Cercanías Renfe: Orcasitas (línea C5).   Bus: 121.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque de Pradolongo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2389-auditorio-al-aire-libre-parque-calero.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2389",
+		"title": "Auditorio al aire libre. Parque del Calero",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c6237b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Concepcion"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28027",
+			"street-address": "CALLE JOSE DEL HIERRO 3"
+		},
+		"location": {
+			"latitude": 40.43629956289038,
+			"longitude": -3.6504096146979457
+		},
+		"organization": {
+			"organization-desc": " Mantenimiento: Dependiente de la Junta Municipal de Distrito de Ciudad Lineal. Metro: Quintana (línea 5), Barrio de la Concepción (línea 7).  Bus: 21, 146, 48.  Bicimad: Estación 229 (calle José del Hierro, 5).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque del Calero"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2388-auditorio-al-aire-libre-parque-enrique-tierno-galvan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2388",
+		"title": "Auditorio al aire libre. Parque Enrique Tierno Galván",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=26937b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Legazpi"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28045",
+			"street-address": "AVENIDA PLANETARIO 18"
+		},
+		"location": {
+			"latitude": 40.390944081814816,
+			"longitude": -3.685391155439898
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Arganzuela.  Actividades: espectáculos variados durante los meses de verano.  Metro: Arganzuela-Planetario (línea 6).  Bus: 148, 156.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque Enrique Tierno Galván"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622049-auditorio-al-aire-libre-parque-lineal-manzanares.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "6622049",
+		"title": "Auditorio al aire libre. Parque Lineal del Manzanares",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6fb3296aa2c9a310VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/SanFermin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CAMINO PERALES 48"
+		},
+		"location": {
+			"latitude": 40.379565707685856,
+			"longitude": -3.6914252404682903
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de Medioambiente (Parques y Jardines).  Actividades: espectáculos variados durante los meses de verano.  Metro: Hospital 12 de Octubre (línea 3).  Bus: 123, 23, 78.  Cercanías Renfe: Doce de Octubre (línea C5).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Parque Lineal del Manzanares"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52510-auditorio-al-aire-libre-pavones.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "52510",
+		"title": "Auditorio al aire libre. Pavones",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=3845946be351c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz/Barrio/Vinateros"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28030",
+			"street-address": "CALLE HACIENDA DE PAVONES 209"
+		},
+		"location": {
+			"latitude": 40.40142760716397,
+			"longitude": -3.6370875655785446
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Moratalaz.  Actividades: espectáculos variados durante los meses de verano.  Metro: Pavones (línea 9).  Bus: 71, 100, 140, 142, 144, E4, 30, 20.  Bicimad: Estación 221 (calle Hacienda de Pavones, 342).",
+			"accesibility": "0",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Pavones"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2397-auditorio-al-aire-libre-pilar-garcia-pena-parque-pinar-rey-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2397",
+		"title": "Auditorio al aire libre. Pilar García Peña (Parque Pinar del Rey)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b8a37b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Hortaleza/Barrio/Canillas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28043",
+			"street-address": "CARRETERA CANILLAS 1"
+		},
+		"location": {
+			"latitude": 40.46335596968574,
+			"longitude": -3.65636755952747
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Hortaleza.  Actividades: espectáculos variados durante los meses de verano.  Bus: 73, 72, 9.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Pilar García Peña (Parque Pinar del Rey)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52515-auditorio-al-aire-libre-plaza-ermua.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "52515",
+		"title": "Auditorio al aire libre. Plaza de Ermua",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c8b5946be351c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Usera/Barrio/Orcasitas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE GUETARIA 56"
+		},
+		"location": {
+			"latitude": 40.37181328202843,
+			"longitude": -3.7158701313563736
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de Medioambiente (Parques y Jardines).  Actividades: espectáculos variados durante los meses de verano.  Bus: 6, 60.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Plaza de Ermua"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451510-auditorio-al-aire-libre-templete-musica-parque-oeste.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5451510",
+		"title": "Auditorio al aire libre. Templete de Música - Parque del Oeste",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a1bebc3dfb094210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "CALLE PROFESOR MARTIN ALMAGRO BASCH 5"
+		},
+		"location": {
+			"latitude": 40.424449819646256,
+			"longitude": -3.719327791504915
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Moncloa-Aravaca.  Actividades: espectáculos variados durante los meses de verano.  Metro: Príncipe Pío (Líneas 6, 10 y Ramal) y Plaza de España (líneas 3 y 10).  Bus: 62, 74.  Cercanías RENFE: Príncipe Pío (Líneas C1, C7, C10 y Regional).  Bicimad: Estación 115 (calle Evaristo San Miguel, 2).",
+			"accesibility": "2",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Templete de Música - Parque del Oeste"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451503-auditorio-al-aire-libre-templete-plaza-remonta.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5451503",
+		"title": "Auditorio al aire libre. Templete. Plaza de la Remonta",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=85f18cc14b094210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Valdeacederas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28039",
+			"street-address": "PLAZA REMONTA 18"
+		},
+		"location": {
+			"latitude": 40.463997008119094,
+			"longitude": -3.6976570794379433
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Tetuán.  Actividades: espectáculos variados durante los meses de verano.  Metro: Valdeacederas (línea 1).  Bus: 124, 66, 49.  Bicimad: Estación 207 (calle Azucenas, 1).",
+			"accesibility": "2",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio al aire libre. Templete. Plaza de la Remonta"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5989871",
+		"title": "Auditorio Carmen Laforet (Ciudad Lineal)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fca22248514ae210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/CiudadLineal/Barrio/Costillares"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28033",
+			"street-address": "CALLE JAZMIN 46"
+		},
+		"location": {
+			"latitude": 40.47960826297022,
+			"longitude": -3.665799020694628
+		},
+		"organization": {
+			"organization-desc": "Ubicado en el Centro de Mayores Carmen Laforet  Metro: Pinar de Chamartín (líneas 1, 4 y línea 1 metro ligero)  Bus: 29, 125, 129, 150",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Aforo: 143 personas",
+			"organization-name": "Auditorio Carmen Laforet (Ciudad Lineal)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52513-auditorio-plaza-chamberi-templete.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "52513",
+		"title": "Auditorio de la Plaza de Chamberí - Templete",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=36a5946be351c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "PLAZA CHAMBERI 12"
+		},
+		"location": {
+			"latitude": 40.43266432328108,
+			"longitude": -3.697557153998127
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta Municipal de Chamberí.  Actividades: espectáculos variados durante los meses de primavera, verano y otoño.  Metro: Iglesia (línea 1).  Bus: 147, 40, 3.  Bicimad: Estación 124 (calle Manuel Silvela, 20).  Aparcamiento: Olavide (52), plaza de Olavide.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio de la Plaza de Chamberí - Templete"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10631882-auditorio-municipal-al-aire-libre-lola-camarena.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10631882",
+		"title": "Auditorio Municipal al aire libre Lola Camarena",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=0dabd0b2571d1610VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/EnsancheVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28051",
+			"street-address": "AVENIDA LA GAVIA 13"
+		},
+		"location": {
+			"latitude": 40.37447621683769,
+			"longitude": -3.6101291550314283
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Villa de Vallecas.  Actividades: espectáculos variados durante todo el año.  Metro: La Gavia (línea 1).  Bus: 145.",
+			"accesibility": "1",
+			"schedule": "De información telefónica: de lunes a viernes de 9 a 14 horas.",
+			"services": "",
+			"organization-name": "Auditorio Municipal al aire libre Lola Camarena"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161051-auditorio-municipal-espinillo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "161051",
+		"title": "Auditorio Municipal el Espinillo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b6a9ba61e681c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde/Barrio/LosRosales"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28041",
+			"street-address": "CALLE TERTULIA 5"
+		},
+		"location": {
+			"latitude": 40.36180966975026,
+			"longitude": -3.6927748531714824
+		},
+		"organization": {
+			"organization-desc": "  Bus: 22 , 59 , 85 , 79 , 123",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "2 pistas de balonmano",
+			"organization-name": "Auditorio Municipal el Espinillo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034889-auditorio-municipal-trece-rosas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7034889",
+		"title": "Auditorio Municipal Las Trece Rosas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d8c31bbad23cf310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/VillaDeVallecas/Barrio/CascoHVallecas"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28031",
+			"street-address": "CALLE MONTE DE MONTJUICH 7 acceso por c/ Sierra Gorda c/v Sierra del Torcal"
+		},
+		"location": {
+			"latitude": 40.38024517813902,
+			"longitude": -3.617532420014534
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Villa de Vallecas.  Actividades: espectáculos variados durante todo el año.  Metro: Villa de Vallecas (línea 1).  Bus: 54, 58, 103, 142 y 143.  Cercanías Renfe: Vallecas (líneas C2 y C7).",
+			"accesibility": "1",
+			"schedule": "De información telefónica: de lunes a viernes de 9 a 14 horas.",
+			"services": "Salas de ensayo. Teatro Auditorio al aire libre (techado).",
+			"organization-name": "Auditorio Municipal Las Trece Rosas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2130-auditorio-nacional-musica.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2130",
+		"title": "Auditorio Nacional de Música",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c4a4eb6fbd71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamartin/Barrio/CiudadJardin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28002",
+			"street-address": "CALLE PRINCIPE DE VERGARA 146"
+		},
+		"location": {
+			"latitude": 40.44615938706209,
+			"longitude": -3.6779448874160314
+		},
+		"organization": {
+			"organization-desc": "Organismo dependiente del Instituto Nacional de las Artes Escénicas y de la Música (Ministerio de Cultura y Deporte). Obra del arquitecto José María García de Paredes, fue inaugurado el 21 de octubre de 1988 y su construcción fue programada dentro del Plan Nacional de Auditorios, destinado a dotar al país de una adecuada infraestructura musical.  Metro: Cruz del Rayo (línea 9),  Prosperidad (línea 4).  Bus: 29, 52, 1.  Bicimad: Estaciones 146 (calle Marían Francisca, 1), 147 (avenida del Doctor Arce, 45).",
+			"accesibility": "1,6",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio Nacional de Música"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290812-auditorio-parque-cuna-verde-vicalvaro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10290812",
+		"title": "Auditorio Parque de la Cuña Verde de Vicálvaro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1dbca0701d0da510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/Ambroz"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "CALLE CASALARREINA 26"
+		},
+		"location": {
+			"latitude": 40.409266465742476,
+			"longitude": -3.613590118065351
+		},
+		"organization": {
+			"organization-desc": "  Bus: 4, E3, E5.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Auditorio Parque de la Cuña Verde de Vicálvaro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5304610-cafe-central.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5304610",
+		"title": "Café Central",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d3611cbd662c0210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "PLAZA ANGEL 10"
+		},
+		"location": {
+			"latitude": 40.414178504157086,
+			"longitude": -3.701904023779484
+		},
+		"organization": {
+			"organization-desc": "  Metro: Antón Martín (línea 1), Sol (líneas 1, 2 y 3).  Bus: 002, M1, SE712, 26, 32, 6, 65.  Cercanías Renfe: Sol (líneas C3, C4 y Regional).  Bicimad: Estación 34 (Plaza Jacinto Benavente) / Estación 52 (Plaza Santa Ana, 10)  Aparcamiento: Plaza de Santa Ana (77)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Café Central"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035060-cafe-palma.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7035060",
+		"title": "Café La Palma",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2000aa5a863cf310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE PALMA 62"
+		},
+		"location": {
+			"latitude": 40.42678043394236,
+			"longitude": -3.708094409489715
+		},
+		"organization": {
+			"organization-desc": "  Metro: Noviciado (línea 2)  Bus: 002, 147, 3  Bicimad: Estación 15 (calle San Vicente Ferrer, 64)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Café La Palma"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "52511",
+		"title": "Centro Cultural Auditorio Parque El Paraíso (San Blas - Canillejas)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=a395946be351c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/SanBlas-Canillejas/Barrio/Hellin"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28037",
+			"street-address": "AVENIDA ARCENTALES 4"
+		},
+		"location": {
+			"latitude": 40.42996840999023,
+			"longitude": -3.622184001035289
+		},
+		"organization": {
+			"organization-desc": "  Metro: Simancas (línea 7).  Bus: 109, 38.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Centro Cultural Auditorio Parque El Paraíso (San Blas - Canillejas)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187391-florida-park.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10187391",
+		"title": "Florida Park",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c89d12e1c4d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Retiro/Barrio/LosJeronimos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "PASEO REPUBLICA DE PANAMA 1 PARQUE EL RETIRO"
+		},
+		"location": {
+			"latitude": 40.41808359382662,
+			"longitude": -3.6801029355530934
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ibiza (línea 9)  Bus: 152, 20, 26, 63, C11",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Florida Park"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7582981-independance-club.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7582981",
+		"title": "Independance Club",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=faa5f49cf9847410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE ATOCHA 127"
+		},
+		"location": {
+			"latitude": 40.409630697339814,
+			"longitude": -3.6928774759221272
+		},
+		"organization": {
+			"organization-desc": "  Metro: Estación del Arte (línea 1)  Bus: 26, 32, 6, 001, 10, 14, 27, 34, 37, 45, C03, E1  Bicimad: Estación 67 (calle Almadén, 28) / Estación 81 (Plaza Emperador Carlos V, 11) / Estación 50 (calle Santa Isabel, 57)  Aparcamiento: Sánchez Bustillo (37)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Independance Club"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3936-sala-live.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "3936",
+		"title": "La Sala Live",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=71b21e79ee71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28047",
+			"street-address": "AVENIDA NUESTRA SEÑORA DE FATIMA 42"
+		},
+		"location": {
+			"latitude": 40.38348754068021,
+			"longitude": -3.7474375780696736
+		},
+		"organization": {
+			"organization-desc": "  Metro: Eugenia de Montijo (línea 5)  Bus: 17, 35",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "La Sala Live"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11519883-pabellon-convenciones-recinto-ferial-casa-campo-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "11519883",
+		"title": "Pabellón de Convenciones (Recinto Ferial Casa de Campo)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=dfd722307a31d710VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "AVENIDA PORTUGAL"
+		},
+		"location": {
+			"latitude": 40.41352730435772,
+			"longitude": -3.7384704159174076
+		},
+		"organization": {
+			"organization-desc": "En el Recinto Ferial de la Casa de Campo y junto al Parque Madrid Río se encuentra el Pabellón de Convenciones, el mejor escenario para acoger ferias, salones profesionales, exposiciones, reuniones y presentaciones de producto. Situado en la entrada más occidental del recinto, este edificio gestionado por la empresa municipal Madrid Destino dispone de 2.886 metros cuadrados de superficie útil, distribuidos en una planta baja y una planta alta. Los arquitectos Jaime Ruiz y Francisco Cabrero diseñaron el Pabellón de Convenciones, que fue construido en 1953.  Durante los años 2019 y 2020, se llevaron a cabo las obras de rehabilitación estructural del edificio y reconstrucción de la Marquesina de la entrada principal. También se realizaron actuaciones de acondicionamiento y de renovación de sus instalaciones principales. De fácil acceso en transporte público - está próximo a la estación de metro de Alto de Extremadura - y conectado con otros barrios de la ciudad por varias líneas de la EMT, cuenta con plazas de aparcamiento cercanas.  Metro: Lago (línea 10), Alto de Extremadura (línea 6)  Bus: 31, 33, 36, 39, 65  Aparcamiento: Avenida de Portugal (7). Frente al n&amp;ordm; 51",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Pabellón de Convenciones (Recinto Ferial Casa de Campo)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2390-pabellon-multiusos-madrid-arena-recinto-ferial-casa-campo-.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2390",
+		"title": "Pabellón Multiusos Madrid Arena (Recinto Ferial Casa de Campo)",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c53179262ef5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "AVENIDA PRINCIPAL 14"
+		},
+		"location": {
+			"latitude": 40.41352730435772,
+			"longitude": -3.7384704159174076
+		},
+		"organization": {
+			"organization-desc": "Recinto de gran espectacularidad, apropiado para desarrollar ferias, actos deportivos, corporativos o espectáculos. Es un lugar de encuentro para desarrollar grandes eventos. De planta circular y coronado por una imponente cúpula, es extremadamente versátil en cuanto a circulaciones y usos. Se distribuye en tres plantas conectadas entre sí, y está unido a través de un túnel con el Pabellón de Cristal y también con el Pabellón Multiusos Madrid Arena, multiplicando así sus posibilidades. Tiene graderíos retráctiles, lo que permite una gran adaptabilidad a todas las necesidades.  Metro: Lago (línea 10), Puerta del Ángel (línea 6)  Bus: 31, 33, 36, 39, 65  Aparcamiento: Avenida de Portugal (7). Frente al n&amp;ordm; 51",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "Dispone de vestuarios y camerinos, cafetería, barras y amplias zonas de carga y descarga, con acceso de camiones hasta la pista principal.  El aforo está sujeto a la implantación del montaje a realizar.",
+			"organization-name": "Pabellón Multiusos Madrid Arena (Recinto Ferial Casa de Campo)"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5452036-quiosco-musica-templete-cantaor-jose-menese.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5452036",
+		"title": "Quiosco de Música Templete Cantaor José Menese",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b6013e3860594210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Latina/Barrio/PuertaAngel"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28011",
+			"street-address": "PLAZA HUARTE DE SAN JUAN 1"
+		},
+		"location": {
+			"latitude": 40.412941426753434,
+			"longitude": -3.725711256326908
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Latina.  Actividades : espectáculos variados durante los meses de verano.  Metro de Madrid. Línea 6. Estación: Puerta del Ángel. Autobuses EMT. Líneas 25, 31, 33, 36, 39, 65 y 138.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Quiosco de Música Templete Cantaor José Menese"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290803-recinto-ferial-vicalvaro.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "10290803",
+		"title": "Recinto Ferial Vicálvaro",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=883ba0701d0da510VgnVCM1000001d4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Vicalvaro/Barrio/CascoHVicalvaro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28032",
+			"street-address": "PASEO POLIDEPORTIVO 142"
+		},
+		"location": {
+			"latitude": 40.40612043638959,
+			"longitude": -3.5967323694208435
+		},
+		"organization": {
+			"organization-desc": "  Metro: Puerta de Arganda (Línea 9).  Bus: 100, 106, 159.  Cercanías RENFE: Vicálvaro (Líneas C2 y C7).",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Recinto Ferial Vicálvaro"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6907373-sala-but.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "6907373",
+		"title": "Sala But",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d6c706172d21e310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Justicia"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28004",
+			"street-address": "CALLE BARCELO 11"
+		},
+		"location": {
+			"latitude": 40.42690296134917,
+			"longitude": -3.699808218271451
+		},
+		"organization": {
+			"organization-desc": "  Metro: Tribunal (líneas 1 y 10), Alonso Martínez (líneas 4, 5 y 10), Bilbao (líneas 1 y 4)  Bus: 149, 40, 21, 37, C03  Bicimad: Estación 54 (calle Barceló, 7)  Aparcamiento: Barceló (69) calle Barceló, sin número / Arquitecto Ribera (Barceló) (17), calle Barceló, 2",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala But"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4072-sala-caracol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "4072",
+		"title": "Sala Caracol",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=fb6d7b503a71c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/PalosMoguer"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE BERNARDINO OBREGON 18"
+		},
+		"location": {
+			"latitude": 40.40399146943472,
+			"longitude": -3.700054055340394
+		},
+		"organization": {
+			"organization-desc": "  Metro: Palos de la Frontera (línea 3), Embajadores (línea 3)  Bus: 148, 60, 78, 119, 34, 36, 41, C03  Cercanías Renfe: Embajadores (línea C5)  Bicimad: Estación 47 (glorieta Embajadores, 6)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Caracol"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5870929-sala-caravan.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5870929",
+		"title": "Sala Caravan",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=874a3a351236c210VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Almagro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "PASEO GENERAL MARTINEZ CAMPOS 14"
+		},
+		"location": {
+			"latitude": 40.434877495729964,
+			"longitude": -3.696810843113834
+		},
+		"organization": {
+			"organization-desc": "  Metro: Iglesia (línea 1)  Bus: 16, 5, 61  Bicimad: Estación 125 (calle Fernández de la Hoz, 29).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Caravan"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3891-sala-clamores.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "3891",
+		"title": "Sala Clamores",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bfa7b069a541f010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Trafalgar"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28010",
+			"street-address": "CALLE ALBURQUERQUE 14"
+		},
+		"location": {
+			"latitude": 40.431121286721805,
+			"longitude": -3.7009483655353894
+		},
+		"organization": {
+			"organization-desc": "  Metro: Bilbao (líneas 1, 4)  Bus: 147, 37, 40, 149  Bicimad: Estación 124 (calle manuel Silvela, 20)  Aparcamiento: Olavide (52), Plaza de Olavide",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Clamores"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4919012-sala-contraclub.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "4919012",
+		"title": "Sala Contraclub",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=cdd1e822e5a0a110VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE BAILEN 16"
+		},
+		"location": {
+			"latitude": 40.41252819937501,
+			"longitude": -3.7139441766173196
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (línea 5).  Bus: SE712  Bicimad: Estación 166 (calle Segovia, 26).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Contraclub"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/71529-sala-copernico.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "71529",
+		"title": "Sala Copérnico",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=66065cee4051c010VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE FERNANDEZ DE LOS RIOS 67 esquina Guzmán el Bueno"
+		},
+		"location": {
+			"latitude": 40.43525047036905,
+			"longitude": -3.713701064096741
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (línea 3, 6), Islas Filipinas (línea 7)  Bus: 16, 61, 2  Bicimad: Estación 199 (calle Fernando el Católico, 61)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Copérnico"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3917-sala-sol.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "3917",
+		"title": "Sala El Sol",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=c20eff632081c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE JARDINES 3"
+		},
+		"location": {
+			"latitude": 40.41896393620347,
+			"longitude": -3.7016354977769943
+		},
+		"organization": {
+			"organization-desc": "  Metro: Gran Vía (línea 1 y 5)  Bus: 001, 1, 2, 3, 46, 74, 002, 146, 51  Bicimad: Estación 210 (Tres Cruces, 7) / Estación 56 (plaza del Carmen, 1)  Aparcamiento: Plaza del Carmen (8)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala El Sol"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676603-sala-galileo-galilei.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "4676603",
+		"title": "Sala Galileo Galilei",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=b0aea3fc6abe5110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Arapiles"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE GALILEO 100"
+		},
+		"location": {
+			"latitude": 40.438535474658956,
+			"longitude": -3.709844851840886
+		},
+		"organization": {
+			"organization-desc": "  Metro: Islas Filipinas (línea 7), Canal (línea 2, 7)  Bus: 12, 2",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Galileo Galilei"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035148-sala-gruta-77.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7035148",
+		"title": "Sala Gruta 77",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=2782ac07d83cf310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/SanIsidro"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28019",
+			"street-address": "CALLE CUCLILLO 6"
+		},
+		"location": {
+			"latitude": 40.390941489181294,
+			"longitude": -3.7314016068733746
+		},
+		"organization": {
+			"organization-desc": "  Metro: Oporto (líneas 5 y 6)  Bus: 118, 34, 35",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Gruta 77"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397202-sala-chocita-loro-gran-via.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7397202",
+		"title": "Sala La Chocita del Loro Gran Vía",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bfce2572f35d4410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE GRAN VIA 70"
+		},
+		"location": {
+			"latitude": 40.42272689593852,
+			"longitude": -3.709478249954353
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (línea 3, 10), Santo Domingo (línea 2)  Bus: 148, 3, 46, 75, 133, 44, 001, 1, 2, 74, 25, 147, 39  Bicimad: Estación 16 (calle San Bernardo, 22) / Estaciones 116 a y b (plaza de España)  Aparcamiento: Mostenses (50) / Isabel la Católica (98), calle de Isabel la Católica",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala La Chocita del Loro Gran Vía"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11014228-sala-chocita-loro-avenida-brasil.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "11014228",
+		"title": "Sala La Chocita del Loro. Avenida del Brasil",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=bfa5553c74a1d610VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/Castillejos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28020",
+			"street-address": "AVENIDA BRASIL 17"
+		},
+		"location": {
+			"latitude": 40.45708442003698,
+			"longitude": -3.693648618521931
+		},
+		"organization": {
+			"organization-desc": "  Metro: Cuzco (línea 10)  Bus: 11, 149",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala La Chocita del Loro. Avenida del Brasil"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397298-sala-chocita-loro-carabanchel.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7397298",
+		"title": "Sala La Chocita del Loro. Carabanchel",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=df5ec0b5d45d4410VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel/Barrio/VistaAlegre"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28025",
+			"street-address": "CALLE DOCTOR URQUIOLA 23"
+		},
+		"location": {
+			"latitude": 40.387620073190725,
+			"longitude": -3.7436541570839834
+		},
+		"organization": {
+			"organization-desc": "  Metro: Carabanchel (línea 5)  Bus: 17, 35",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala La Chocita del Loro. Carabanchel"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676668-sala-moby-dick.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "4676668",
+		"title": "Sala Moby Dick",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=e2c1f1480bbe5110VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan/Barrio/CuatroCaminos"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28020",
+			"street-address": "AVENIDA BRASIL 5"
+		},
+		"location": {
+			"latitude": 40.454487186392804,
+			"longitude": -3.694056023965524
+		},
+		"organization": {
+			"organization-desc": "  Metro: Santiago Bernabeu (línea 10)  Bus: 5, 149  Bicimad: Estación 154 (calle Orense, 36)  Aparcamiento: General Yag&amp;uuml;e (28), Avenida Brasil, 15",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Moby Dick"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5942340-sala-mon.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "5942340",
+		"title": "Sala Mon",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d2834ff84bbed210VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi/Barrio/Gaztambide"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE HILARION ESLAVA 36"
+		},
+		"location": {
+			"latitude": 40.435890728108525,
+			"longitude": -3.716513924076727
+		},
+		"organization": {
+			"organization-desc": "  Metro: Moncloa (Líneas 3 y 6), Islas Filipinas (línea 7)  Bus: 16, 61, 1, 132, 138, 44, 62, 82, C1, C2",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Mon"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035002-sala-tempo-audiophile-club.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7035002",
+		"title": "Sala Tempo Audiophile Club",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=aec1b043653cf310VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Universidad"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28015",
+			"street-address": "CALLE DUQUE DE OSUNA 8"
+		},
+		"location": {
+			"latitude": 40.425297538012565,
+			"longitude": -3.711910103061732
+		},
+		"organization": {
+			"organization-desc": "  Metro: Plaza de España (líneas 3 y 10)  Bus: 001, 1, 133, 138, 2, 44, 62, 74, C1, C2, 39  Bicimad: Estaciones 116 a y b (Plaza de España) / Estación 14 (calle Ventura Rodríguez, 2)  Aparcamiento: Plaza de España (53)",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Sala Tempo Audiophile Club"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187413",
+		"title": "Tablao Flamenco Café Ziryab",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=504212e1c4d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela/Barrio/Acacias"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "PASEO ESPERANZA 17"
+		},
+		"location": {
+			"latitude": 40.402248850411304,
+			"longitude": -3.705138659259797
+		},
+		"organization": {
+			"organization-desc": "  Metro: Acacias (línea 5), Embajadores (línea 3), Pirámides (línea 5).  Bus: 62.  Cercanías Renfe: Pirámides (líneas C1, C7, C10), Embajadores (línea C5).  Bicimad: Estaciones 170 (paseo de la Esperanza, 21) y 163 (paseo de la Esperanza, 2).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Café Ziryab"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187560",
+		"title": "Tablao Flamenco Candela",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=be49b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Embajadores"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28012",
+			"street-address": "CALLE OLMO 2"
+		},
+		"location": {
+			"latitude": 40.411468882602335,
+			"longitude": -3.70155764657445
+		},
+		"organization": {
+			"organization-desc": "  Metro: Antón Martín (línea 1).  Bus: M1.  Bicimad: Estación 41 (calle Atocha, 54) y 43 (calle Lavapiés, 34).  Aparcamiento: Garaje Centro (68) calle Relatores, 11.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Candela"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187763",
+		"title": "Tablao Flamenco Cardamomo",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=1657b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Cortes"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28014",
+			"street-address": "CALLE ECHEGARAY 15"
+		},
+		"location": {
+			"latitude": 40.415463057589214,
+			"longitude": -3.699548238936712
+		},
+		"organization": {
+			"organization-desc": "  Metro: Sevilla (línea 2), Antón Martín (línea 1), Sol (líneas 1, 2 y 3).  Bus: 002, M1.  Cercanías Renfe: Sol (líneas C3, C4 y Regional).  Bicimad: Estación 52 (plaza Santa Ana, 10).  Aparcamiento: Plaza de Santa Ana (77).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Cardamomo"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187520",
+		"title": "Tablao Flamenco Corral de la Morería",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=d23712e1c4d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE MORERIA 17"
+		},
+		"location": {
+			"latitude": 40.412706403145705,
+			"longitude": -3.7142642886798996
+		},
+		"organization": {
+			"organization-desc": "  Metro: La Latina (línea 5).  Bus: 31, 50, 65.  Bicimad: Estación 166 (calle Segovia, 26).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Corral de la Morería"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091929-tablao-flamenco-carboneras.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "7091929",
+		"title": "Tablao Flamenco Las Carboneras",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=87c76036342f0410VgnVCM2000000c205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28005",
+			"street-address": "CALLE CONDE DE MIRANDA 1"
+		},
+		"location": {
+			"latitude": 40.415035593525715,
+			"longitude": -3.7092201911733795
+		},
+		"organization": {
+			"organization-desc": "  Metro: Ópera (líneas 2, 5 y Regional).  Bus: 31, 50, 65.   Bicimad :   Estaciones 9 (plaza de San Miguel, 9) y 35 (plaza del Cordón).   Aparcamiento: Plaza Mayor (55).",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Las Carboneras"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+		"id": "10187547",
+		"title": "Tablao Flamenco Torres Bermejas",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=8168b096d9d48510VgnVCM2000001f4a900aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Sol"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "CALLE MESONERO ROMANOS 11"
+		},
+		"location": {
+			"latitude": 40.419885409942566,
+			"longitude": -3.7041793844860695
+		},
+		"organization": {
+			"organization-desc": "  Metro: Callao (líneas 3 y 5), Gran Vía (líneas 1 y 5).  Bus: 001, 1, 2, 3, 46, 74, 002.  Cercanías Renfe: Sol (líneas C3 y C4).  Bicimad: Estaciones 210 (Tres Cruces, 7), 211 (Desengaño, 1), 2 (calle Miguel Moya, 1).  Aparcamiento: El Corte Inglés Callao (92), plaza de Callao.",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Tablao Flamenco Torres Bermejas"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2196-teatro-real.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "2196",
+		"title": "Teatro Real",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=6fc179262ef5d010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Centro/Barrio/Palacio"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28013",
+			"street-address": "PLAZA ISABEL II 1"
+		},
+		"location": {
+			"latitude": 40.417755675106605,
+			"longitude": -3.7091902837192046
+		},
+		"organization": {
+			"organization-desc": "Proyectado por Antonio López Aguado en 1818 siguiendo la tipología clásica de teatros del siglo XVIII. Intervienen en su construcción Custodio Moreno e Isidro González Velázquez. De planta irregular hexagonal, presenta dos fachadas principales: una orientada a la plaza de Isabel II, con poca decoración, y la otra al Palacio Real y plaza de Oriente, realizada por González Velázquez y más ornamentada. En el interior destaca el techo de la Gran Sala pintado por Lucas y la lámpara de bronce dorado. En 1925 se cierra por amenaza de ruina y se inicia su reconstrucción a partir de 1940. El 11 de octubre de 1997 se abre como teatro de ópera. Venta de localidades   Servicio de venta telefónica: 900 244 848 Venta en Internet: https://www.teatroreal.es/es  Taquillas Metro: Ópera (líneas 2, 5 y Ramal Opera-Príncipe Pío)  Bus: 25, 39  Bicimad: Estación 24 (calle Carlos III, 1)  Parking: Descalzas (20), Plaza Descalzas y Plaza San Martín",
+			"accesibility": "3",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Teatro Real"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122295-templete-musica-parque-bombilla.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "122295",
+		"title": "Templete de Música - Parque de La Bombilla",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=9233cbf06c81c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moncloa-Aravaca/Barrio/CasaCampo"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28008",
+			"street-address": "GLORIETA SAN ANTONIO DE LA FLORIDA 9"
+		},
+		"location": {
+			"latitude": 40.426047943114646,
+			"longitude": -3.725969994297979
+		},
+		"organization": {
+			"organization-desc": "Su mantenimiento es competencia de la Junta de Distrito de Moncloa - Aravaca.  Actividades: espectáculos variados durante los meses de verano.  Metro: Príncipe Pío (líneas 6, 10 y Ramal).  Bus: 46, 41, 75.  Cercanías RENFE: Príncipe Pío (líneas C1, C7, C10 y Regional).",
+			"accesibility": "2",
+			"schedule": "",
+			"services": "",
+			"organization-name": "Templete de Música - Parque de La Bombilla"
+		}
+	},
+	{
+		"@id": "https://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165847-wizink-center.json",
+		"@type": "https://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+		"id": "165847",
+		"title": "WiZink Center",
+		"relation": "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=322a8f90a581c010VgnVCM1000000b205a0aRCRD",		
+		"address": {
+			"district": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca"
+			},
+			"area": {
+				"@id": "https://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Salamanca/Barrio/Goya"
+			},
+			"locality": "MADRID",			
+			"postal-code": "28009",
+			"street-address": "CALLE JORGE JUAN 99 Avenida de Felipe II, s/n"
+		},
+		"location": {
+			"latitude": 40.42328354496374,
+			"longitude": -3.672104027231158
+		},
+		"organization": {
+			"organization-desc": "  Metro: Goya (líneas 2 y 4), O'Donnell (línea 6).  Bus: 30, C1, 43, 53, 146, 21, 26, 61, C2, 215, 15, 63, 29.  Bicimad: Estaciones 100 (calle Goya, 99) y 98 (plaza de Felipe II).  Aparcamiento: Felipe II (26), avenida Felipe II y calle Goya.",
+			"accesibility": "1",
+			"schedule": "",
+			"services": "",
+			"organization-name": "WiZink Center"
+		}
+	}	  
+  ]
+}
+

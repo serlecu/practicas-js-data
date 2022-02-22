@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- HEAD
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<head>
+  <meta charset='utf-8'>
+
+  <title>Title</title>
+
+  <meta content="" name="Sergio Lecuona" />
+  <meta content="" name="descripcion" />
+  <meta content="" name="keywords" />
+
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Mobile Specific Metas ( Responsive )
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" id="viewport">
+
+  <meta http-equiv="cleartype" content="on">
+  <meta name=format-detection content="telephone=no">
+
+  <!-- android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="translucent-white">
+  <meta name="apple-mobile-web-app-title" content="">
+
+  <!-- Social Sharing Meta Tags
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- OpenGraph
+       https://ogp.me/
+  -->
+  <meta property=og:locale content="en_EN" />
+  <meta property=og:title content="">
+  <meta property=og:description content="">
+  <meta property=og:image content="">
+  <meta property=og:site_name content="">
+  <meta property=og:url content="">
+  <meta property=og:type content=website>
+
+  <!-- Twitter Cards
+       https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
+  -->
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content="">
+  <meta name=twitter:creator content="">
+  <meta name=twitter:title content="">
+  <meta name=twitter:description content="">
+  <meta name=twitter:image content="">
+
+  <!-- Favicon
+       https://www.favicon-generator.org/
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <!-- CSS (Cascading Style Sheets)
+       https://en.wikipedia.org/wiki/CSS -->
+       
+  <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../../css/skeleton.css">
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+  
+  <style>
+     .section {
+          text-align: center;
+     }
+
+     #d3-mapBox{
+      position:absolute;
+      top:0;
+      bottom:0;
+      width:100%;
+    }
+    svg{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    circle{
+      fill: rgba(5,5,5,0.8);
+      cursor: pointer;
+      transition: 0.5s fill;
+    }
+    circle:hover {
+      fill: rgba(90,125,164,0.6);
+    }
+
+  </style>
+
+<!--
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+</head>
+
+<!-- BODY ( DOM [Document Object Model] created when page is loaded )
+     https://en.wikipedia.org/wiki/Document_Object_Model
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body>
+     <!--<div class="section navigator">
+          <div class="container">
+            <div class="row" style="padding-top:40px;">
+              <h1>Mad-Con-Map</h1>
+            </div>
+          </div>
+        </div>
+      
+        <div class="section graphics">
+          
+        </div>
+     </div>-->
+
+     <div id="d3-mapBox" > </div>
+</body>
+
+
+<!-- JS (Javascript, client side scripts) -->
+
+<script src="../../js/d3.v4.min.js"></script>     <!-- https://d3js.org/ -->
+<script src="../../js/jquery-3.6.0.min.js"></script>  <!-- https://jquery.com/ -->
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script> <!-- https://www.mapbox.com/mapbox-gljs -->
+
+<script>
+    ////////////////////////////////////////////////// INIT
+    var dataURL = "ocio_salas.json"
+  //https://datos.gob.es/es/catalogo/l01280796-salas-de-espectaculos-artisticos-teatros-cines-filmotecas-auditorios-y-salas-de-conciertos
+    var localData;
+
+    var plotWidth = window.innerWidth;
+    var plotHeight = window.innerHeight;
+
+    var accesToken = "pk.eyJ1Ijoic2VybGVjdSIsImEiOiJja3p5YWR6NWEwMXV5MndtbGpvbWw1MDl5In0.KtB-eGd6OvonQRj6w9nNiw"//process.env.MAPBOX_APP_API_KEY
+
+    // D3
+    var svgContainerID = "d3SVGLayer";
+    var d3_poiGroup;
+    var pointsOfInterest;
+
+
+    ////////////////////////////////////////////////// SETUP
+
+    mapboxgl.accessToken = accesToken;
+    //40.4165603,-3.6925051,12.11z
+    const map = new mapboxgl.Map({
+        container: 'd3-mapBox',
+        style: 'mapbox://styles/mapbox/streets-v11', // 'mapbox://styles/n3m3da/ckzwlac09000014kcupjynxjj' 'mapbox://styles/mapbox/streets-v11'
+        projection: 'mercator', // albers, equalEarth, equirectangular, lambertConformalConic, mercator, naturalEarth, winkelTripel
+        zoom: 12.11,
+        center: [-3.6925051, 40.4165603], // starting position [lng, lat]
+        antialias: true
+    });
+
+    var mapboxCanvas = map.getCanvasContainer();
+
+    var mapboxSVG = d3.select(mapboxCanvas).append("svg:svg")
+        .attr("id", svgContainerID)
+        .attr("width", plotWidth)
+        .attr("height", plotHeight);
+
+
+    map.on('load', function () {
+        d3.json(dataURL, function(err, data) {
+            if (err) throw err;
+
+            localData = data;
+
+            d3_poiGroup = mapboxSVG.append("g").attr("id","points-of-interest");
+
+            pointsOfInterest = d3_poiGroup.selectAll("circle")
+                               .data(data.graph)//"@graph" //location
+                               .enter()
+                               .append("circle")
+                               .attr("id", function(d,i) { return "poi-" + i; })
+                               .attr("r", 16);
+
+            updateMap();
+
+            //console.log(data.graph);
+
+            map.on("viewreset", updateMap);
+            map.on("move",      updateMap);
+            map.on("moveend",   updateMap);
+
+        });
+    });
+
+
+    ////////////////////////////////////////////////// UPDATE
+  
+
+    function updateMap(){
+          for(var i=0;i<localData.graph.length;i++){
+               d3.select("#poi-" + i)
+                 .attr("cx", project2(localData.graph[i].location.longitude,localData.graph[i].location.latitude).x)
+                 .attr("cy", project2(localData.graph[i].location.longitude,localData.graph[i].location.latitude).y);
+          }
+       
+    }
+
+
+     ////////////////////////////////////////////////// FUNCTIONS
+
+     // Project GeoJSON coordinate to the map's current state
+    function project(d) {
+        return map.project(new mapboxgl.LngLat(+d[0], +d[1])); // [Long, Lat] [-180-180, -90,90]
+    }
+    function project2(lon,lat) {
+        return map.project(new mapboxgl.LngLat(+lon, +lat)); // [Long, Lat] [-180-180, -90,90]
+    }
+
+    
+
+
+</script>
+
+<!--
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+</html>
