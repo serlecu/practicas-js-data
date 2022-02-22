@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- HEAD
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<head>
+  <meta charset='utf-8'>
+
+  <title>Title</title>
+
+  <meta content="" name="Sergio Lecuona" />
+  <meta content="" name="descripcion" />
+  <meta content="" name="keywords" />
+
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Mobile Specific Metas ( Responsive )
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" id="viewport">
+
+  <meta http-equiv="cleartype" content="on">
+  <meta name=format-detection content="telephone=no">
+
+  <!-- android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="translucent-white">
+  <meta name="apple-mobile-web-app-title" content="">
+
+  <!-- Social Sharing Meta Tags
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- OpenGraph
+       https://ogp.me/
+  -->
+  <meta property=og:locale content="en_EN" />
+  <meta property=og:title content="">
+  <meta property=og:description content="">
+  <meta property=og:image content="">
+  <meta property=og:site_name content="">
+  <meta property=og:url content="">
+  <meta property=og:type content=website>
+
+  <!-- Twitter Cards
+       https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
+  -->
+  <meta name=twitter:card content=summary_large_image>
+  <meta name=twitter:site content="">
+  <meta name=twitter:creator content="">
+  <meta name=twitter:title content="">
+  <meta name=twitter:description content="">
+  <meta name=twitter:image content="">
+
+  <!-- Favicon
+       https://www.favicon-generator.org/
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <!-- CSS (Cascading Style Sheets)
+       https://en.wikipedia.org/wiki/CSS -->
+       
+  <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../../css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../../css/skeleton.css">
+
+  <style>
+     .section {
+          text-align: center;
+     }
+  </style>
+
+<!--
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+</head>
+
+<!-- BODY ( DOM [Document Object Model] created when page is loaded )
+     https://en.wikipedia.org/wiki/Document_Object_Model
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body>
+     <div class="section navigator">
+          <div class="container">
+            <div class="row" style="padding-top:40px;">
+              <h1>Toasting-O-Meter</h1>
+            </div>
+          </div>
+        </div>
+      
+        <div class="section graphics">
+          <div class="container">
+            <div id="d3-container" style="width:100%;height:100%;"> </div>
+          </div>
+        </div>
+     </div>
+</body>
+
+
+<!-- JS (Javascript, client side scripts) -->
+
+<script src="../../js/d3.v4.min.js"></script>     <!-- https://d3js.org/ -->
+<script src="../../js/jquery-3.6.0.min.js"></script>  <!-- https://jquery.com/ -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> <!-- D3 Color Palette -->
+
+<script>
+     ////////////////////////////////////////////////// INIT
+     var dataURL     = "../../DGSR_Data.csv";
+     var localData;
+     var dataLoaded = false;
+     
+     var burnColors;
+     var toast_Path = "M 0,0 L -40,0 L -35,-70 C -50,-65 -45,-100 -30,-100 L 30,-100 C 45,-100 50,-65 35,-70 L 40,0 L 0,0"
+
+     var plotWidth = window.innerWidth * 0.7;
+     var plotHeight = window.innerHeight * 0.9;
+
+     var toastWidth = 1000;
+     var toastHeight = 1000;
+     
+
+     ////////////////////////////////////////////////// SETUP
+     var chart = d3.select("#d3-container");
+
+     var svg = chart.append("svg:svg")
+               .attr("id","svgID")
+               .attr("width", plotWidth)
+               .attr("height", plotHeight)
+               .append("g")
+               //.attr("transform","translate(" + plotWidth/2 + "," + plotHeight/2 + ")");
+
+     // draw a circle
+     
+     var toast = svg.append("path")
+                    .attr("d", toast_Path)
+                    .attr("fill", "none")
+                    .attr("stroke", "black")
+                    .attr("stroke-width", "2px")
+                    .attr("transform", "translate("+plotWidth*0.5+","+plotHeight*0.3+")");     
+
+     //Visualization
+     //Toast(dataURL)
+
+     dataLoaded = true;
+
+     ////////////////////////////////////////////////// UPDATE
+     $(document).ready(function() {
+          updateLoop();
+     });
+
+     ////////////////////////////////////////////////// FUNCTIONS
+     var updateLoop = function(){
+          if(dataLoaded){
+               SVG_update();
+               Toast_update();
+               updateVisualization();
+               requestAnimationFrame(updateLoop);
+          }
+     };
+
+     function Toast(dataUrl){
+          d3.csv(dataURL, function(data){
+               localData = data;
+               //dataLoaded = true;
+               /*
+               slice = svg.append("path")
+                    .attr("d", toast_Path)
+                    .attr("fill", "none")
+                    .attr("stroke", "black")
+                    .attr("stroke-width", "2px")
+                    .attr("transform", "translate(50,100)");
+               */
+          });
+     }
+
+     function Toast_update(){
+          toast.attr("transform", "translate("+plotWidth*0.5+","+plotHeight*0.3+")");
+     }
+
+     function SVG_update(){
+          plotWidth = window.innerWidth * 0.7;
+          plotHeight = window.innerHeight * 0.9;
+
+          d3.select("#svgID").attr("width", plotWidth)
+                                        .attr("height", plotHeight);
+     }
+
+     
+
+</script>
+
+<!--
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+</html>
