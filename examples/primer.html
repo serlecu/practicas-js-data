@@ -7,7 +7,7 @@
 <head>
   <meta charset='utf-8'>
 
-  <title>Landing</title>
+  <title>Title</title>
 
   <meta content="" name="Sergio Lecuona" />
   <meta content="" name="descripcion" />
@@ -64,6 +64,12 @@
   <link rel="stylesheet" type="text/css" href="../../css/reset.css">
   <link rel="stylesheet" type="text/css" href="../../css/normalize.css">
   <link rel="stylesheet" type="text/css" href="../../css/skeleton.css">
+  
+  <style>
+     .section {
+          text-align: center;
+     }
+  </style>
 
 <!--
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,14 +82,27 @@
      https://en.wikipedia.org/wiki/Document_Object_Model
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
-  <h1>Primer</h1>
-  <p>Hi Moon!</p>
+     <div class="section navigator">
+          <div class="container">
+            <div class="row" style="padding-top:40px;">
+              <h1>Title</h1>
+            </div>
+          </div>
+        </div>
+      
+        <div class="section graphics">
+          <div class="container">
+            <div id="d3-container" style="width:100%;height:100%;"> </div>
+          </div>
+        </div>
+     </div>
 </body>
 
 
 <!-- JS (Javascript, client side scripts) -->
 
 <script src="../../js/d3.v4.min.js"></script>     <!-- https://d3js.org/ -->
+<script src="../../js/jquery-3.6.0.min.js"></script>  <!-- https://jquery.com/ -->
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script> <!-- D3 Color Palette -->
 
 <!--
